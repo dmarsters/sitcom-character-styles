@@ -174,6 +174,3 @@ def get_server_info() -> str:
     }
     return json.dumps(info, indent=2)
 
-
-if __name__ == "__main__":
-    server.run()
