@@ -1,0 +1,2 @@
+[console_scripts]
+sitcom-character-styles = sitcom_character_styles.mcp_server.server:main

@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+./characters/__init__.py
+./characters/endora/__init__.py
+./characters/endora/src/endora_operator.py
+./characters/endora/src/prompt_enhancement.py
+./characters/endora/tests/test_mcp_server.py
+./framework/core/continuous_deformation.py
+./framework/core/olog_loader.py
+./mcp_server/__init__.py
+./mcp_server/server.py
+sitcom_character_styles.egg-info/PKG-INFO
+sitcom_character_styles.egg-info/SOURCES.txt
+sitcom_character_styles.egg-info/dependency_links.txt
+sitcom_character_styles.egg-info/entry_points.txt
+sitcom_character_styles.egg-info/requires.txt
+sitcom_character_styles.egg-info/top_level.txt

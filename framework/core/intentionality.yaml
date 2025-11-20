@@ -1,0 +1,210 @@
+# Sitcom Character Styles - Layer 2: Intentionality Framework
+# Explains why and how character sensory logic produces coherent transformations
+
+core_principle:
+  statement: "A character's sensory logic is a coherent philosophical worldview expressed through visual choices. When applied to a visual field, it imposes that worldview consistently across all dimensions."
+  implication: "Coherence isn't achieved through rules - it emerges from the unified sensibility underlying all choices."
+
+intentionality_structure:
+  description: "Each character operator has sensory principles that explain why its transformations cohere"
+  components:
+    - core_worldview: "The character's underlying philosophy about reality"
+    - sensory_principles: "How that worldview manifests across sensory domains"
+    - coherence_mechanisms: "Why these principles reinforce rather than contradict each other"
+    - intensity_semantics: "How the entire sensibility scales with intensity"
+
+framework_sensory_principles:
+  MaterialAuthenticity:
+    description: "Materials are chosen for meaning, not accident. They carry history, intention, and significance."
+    framework_application: |
+      For any character operator:
+      - At low intensity: Keep original materials mostly unchanged
+      - At moderate intensity: Materials gain subtle intention and significance
+      - At high intensity: Every material choice becomes laden with meaning
+    coherence_mechanism: "Material precision reinforces the character's overall worldview - if the character values precision, materials become precise; if the character values authenticity, materials become honest"
+  
+  SpatialIntention:
+    description: "Space is never neutral. It's always composed according to values - hierarchy, equality, chaos, precision, etc."
+    framework_application: |
+      For any character operator:
+      - At low intensity: Spatial relationships remain mostly original
+      - At moderate intensity: Subtle reorganization begins; some elements gain prominence
+      - At high intensity: Complete spatial reorganization according to character's values
+    coherence_mechanism: "How space is organized reveals what the character values - centrality reveals authority, dispersal reveals equality, asymmetry reveals dynamic tension"
+  
+  TemporalAuthenticity:
+    description: "Time moves according to the character's relationship to reality. Rushed characters experience compression; patient characters experience expansion."
+    framework_application: |
+      For any character operator:
+      - At low intensity: Temporal flow remains largely normal
+      - At moderate intensity: Subtle sense of time reorganizing around character's presence
+      - At high intensity: Complete temporal reorientation; time flows by character's rules
+    coherence_mechanism: "How time moves expresses the character's power relationship to reality - do they move with time or does time move for them?"
+  
+  ChromaticAuthenticity:
+    description: "Colors aren't decorative - they're expressions of emotional and philosophical truth. Each color has meaning in the character's worldview."
+    framework_application: |
+      For any character operator:
+      - At low intensity: Color palette shifts subtly toward character's emotional truth
+      - At moderate intensity: Character's preferred colors become prominent
+      - At high intensity: Complete color transformation; palette is dominated by character's chromatic logic
+    coherence_mechanism: "Color choices reveal emotional state and philosophical stance - warm colors suggest openness, cool colors suggest reserve; saturation suggests confidence, desaturation suggests doubt"
+  
+  EmotionalAuthenticity:
+    description: "Emotional subtext is always present beneath the surface. What's felt underneath shapes what's visible on top."
+    framework_application: |
+      For any character operator:
+      - At low intensity: Slight hint of character's emotional truth
+      - At moderate intensity: Character's emotions clearly present beneath surfaces
+      - At high intensity: Emotional subtext becomes primary - visible in every choice
+    coherence_mechanism: "Authentic emotion produces authentic visual choices - if something is emotionally true for the character, it shows in material choices, spatial arrangement, timing, color, and expression"
+
+intensity_semantics:
+  philosophical_meaning: |
+    Intensity doesn't mean "more of the same aesthetic applied randomly."
+    It means "this character's sensory logic increasingly dominates the visual field until their worldview is the primary reality."
+  
+  progression_principle:
+    intensity_0_3: |
+      Whisper stage: Character's presence is barely perceptible.
+      The original prompt remains primary.
+      Character sensory logic appears only in subtle choices.
+      Use case: "Give me just a hint of this character's influence"
+    
+    intensity_4_6: |
+      Conversation stage: Character's sensory logic and original prompt are in clear dialogue.
+      Neither dominates entirely.
+      Character's influence is unmistakable but respectful of original content.
+      Use case: "Blend character sensory logic with my prompt about 50/50"
+    
+    intensity_7_8: |
+      Dominance stage: Character's sensory logic clearly dominates.
+      Original prompt provides subject matter; character provides sensibility.
+      Character's worldview shapes nearly every choice.
+      Use case: "Make this prompt strongly influenced by character's sensory logic"
+    
+    intensity_9_10: |
+      Saturation stage: Character's sensory logic is the primary reality.
+      Original prompt is barely recognizable through character's lens.
+      Character's worldview completely remakes what's visible.
+      Use case: "I want to see this through the character's eyes completely"
+
+coherence_mechanisms:
+  UnifiedWorldview:
+    description: "All transformations emerge from one coherent philosophical stance, not five independent rules"
+    mechanism: |
+      When a character has a unified worldview (e.g., "aristocratic supernatural authority"),
+      that worldview naturally generates consistent choices across all dimensions:
+      - Material choices that express superiority
+      - Spatial arrangements that show hierarchy
+      - Temporal presence that shows inevitability
+      - Color choices that show luxury and precision
+      - Emotional undertones that show knowing and subtle contempt
+      
+      These aren't separate rules applied independently - they're facets of one unified logic.
+    verification: "If the result feels like five independent filters stacked on top of each other, the implementation has failed. If it feels like one unified sensibility applied with varying saturation, it succeeded."
+  
+  ProportionalScaling:
+    description: "All dimensions intensify together, maintaining their proportional relationships"
+    mechanism: |
+      At intensity 3: All dimensions are at 3/10 of their maximum effect
+      At intensity 5: All dimensions are at 5/10 of their maximum effect
+      At intensity 10: All dimensions are at 10/10 of their maximum effect
+      
+      This ensures coherence - no dimension becomes over-represented or under-represented relative to others.
+    constraint: "If one dimension intensifies faster than others, coherence breaks - the result feels unbalanced or contradictory"
+  
+  IntentionalityPreservation:
+    description: "Every transformation choice serves the character's underlying intention, not arbitrary aesthetic rules"
+    mechanism: |
+      Before applying a transformation:
+      Ask: "Would this character make this choice? Does it express their worldview?"
+      
+      If yes → transformation serves intentionality, coherence is preserved
+      If no → transformation is arbitrary, coherence fails
+      
+      Example: Endora would make a coffee cup material more precious (yes - shows superiority)
+               but wouldn't make it psychedelic or chaotic (no - contradicts her control)
+    verification: "Can you explain each transformation choice in terms of character's worldview?"
+
+dimensional_coherence:
+  principle: "The five dimensions reinforce each other rather than contradict"
+  examples:
+    aristocratic_character: |
+      If a character values aristocratic superiority:
+      - Materials become precious (material dimension)
+      - Space hierarchizes (spatial dimension)
+      - Time becomes authoritative (temporal dimension)
+      - Colors become jewel-toned (chromatic dimension)
+      - Emotional subtext becomes knowing (emotional dimension)
+      
+      All five support the same worldview - aristocratic authority.
+    
+    chaotic_character: |
+      If a character embraces productive chaos:
+      - Materials clash and combine unexpectedly (material dimension)
+      - Space becomes asymmetrical and surprising (spatial dimension)
+      - Time becomes unpredictable (temporal dimension)
+      - Colors become surprising adjacencies (chromatic dimension)
+      - Emotional subtext becomes permissive (emotional dimension)
+      
+      All five support the same worldview - embracing incongruity.
+
+quality_checks:
+  UnifiedSensibility:
+    question: "Does the result feel like one character's sensory logic, or like five separate filters?"
+    pass: "The result feels unified - recognizably the character's presence reshaping everything"
+    fail: "The result feels like multiple effects stacked - material changes don't match spatial changes, colors don't match mood"
+  
+  IntentionalityFidelity:
+    question: "Could the character authentically make these choices?"
+    pass: "Every visible choice expresses something true to the character's worldview"
+    fail: "Some choices contradict character's core values or feel arbitrary"
+  
+  ProportionalCoherence:
+    question: "Do all dimensions scale together, or does one dominate?"
+    pass: "At any intensity, all dimensions are equally present and equally intensified"
+    fail: "Some dimensions are over-represented (colors change dramatically while materials barely change)"
+  
+  PromptRespect:
+    question: "Does the transformation preserve what was in the original prompt?"
+    pass: "The subject, action, and basic structure remain recognizable, but filtered through character sensory logic"
+    fail: "The original prompt is unrecognizable or completely contradicted"
+
+failure_modes_to_avoid:
+  ArbitraryAesthetics:
+    problem: "Applying aesthetic rules that don't express the character's worldview"
+    example: "Making Endora's transformation chaotic because 'chaos looks interesting' (contradicts her precision)"
+    prevention: "Every choice must be justifiable through character's worldview"
+  
+  DimensionalImbalance:
+    problem: "One dimension intensifying while others remain weak"
+    example: "Strong color shift but spatial arrangement unchanged (feels disconnected)"
+    prevention: "All dimensions must scale proportionally with intensity"
+  
+  PromptObliteration:
+    problem: "Applying character so strongly that original prompt disappears"
+    example: "At intensity 5, original prompt is unrecognizable (should require intensity 9-10)"
+    prevention: "Respect the prompt throughout intensity scale; only at 9-10 should character completely dominate"
+  
+  FilterStacking:
+    problem: "Treating dimensions as independent effects to layer on top of each other"
+    example: "Color filter + spatial filter + material filter = disconnected effects instead of unified sensibility"
+    prevention: "Think of dimensions as manifestations of one unified logic, not separate operations"
+
+application_guidelines:
+  ForImplementers: |
+    When building the execution layer:
+    1. Start with the character's core worldview (what do they believe about reality?)
+    2. For each transformation dimension, ask: "How would this worldview express itself?"
+    3. Build transformations that answer those questions
+    4. Test coherence: Do all dimensions reinforce each other?
+    5. Test intentionality: Does each choice serve the character's purpose?
+    6. Test scaling: Do all dimensions intensify together?
+  
+  ForUsers: |
+    When applying the operator:
+    1. At intensity 1-3: Character barely whispers - use to add subtle character flavor
+    2. At intensity 4-6: Character and prompt dialogue - blend two sensibilities
+    3. At intensity 7-8: Character dominates - use when you want strong character influence
+    4. At intensity 9-10: Character is primary reality - use to see through character's eyes

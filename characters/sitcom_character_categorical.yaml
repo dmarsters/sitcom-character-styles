@@ -1,0 +1,124 @@
+# Sitcom Character Styles - Layer 1: Categorical Structure
+# Framework for modeling character sensory logic as continuous deformation operators
+# 
+# Core insight: A character's sensory logic is a unified operator that continuously
+# deforms visual fields across all dimensions (material, spatial, temporal, chromatic, emotional)
+# with a single intensity parameter (0-10).
+
+types:
+  VisualField:
+    description: "The input domain being transformed - a semantic description of what to render"
+    properties:
+      base_prompt: "Natural language description of visual content"
+      semantic_components:
+        - subject: "What/who is being depicted"
+        - action: "What's happening"
+        - setting: "Where and when"
+        - objects: "Things present in the scene"
+        - colors: "Color information in the prompt"
+        - mood: "Emotional atmosphere"
+    comment: "VisualField is the source of the transformation"
+
+  CharacterOperator:
+    description: "A unified sensory logic embodied by a character, functioning as a continuous deformation operator"
+    subtypes:
+      EndoraOperator: "Aristocratic supernatural presence - hierarchical, material, authoritative"
+      MorkOperator: "Alien absurdist sincerity - incongruity-based, emotionally direct, permission-granting"
+    properties:
+      name: "Character name"
+      core_sensory_logic: "The unified principle governing all transformations"
+      transformation_dimensions:
+        - material_presence: "How objects/surfaces are rendered"
+        - spatial_hierarchy: "How composition is arranged"
+        - temporal_authority: "How time/motion is experienced"
+        - chromatic_command: "How colors function"
+        - emotional_subtext: "How feeling is conveyed"
+    comment: "CharacterOperator is a single unified deformation field, not a collection of discrete choices"
+
+  IntensityParameter:
+    description: "Scalar intensity (0-10) that continuously modulates operator strength"
+    properties:
+      value: "Float from 0 to 10"
+      semantics:
+        0: "No transformation - original prompt unchanged"
+        1-3: "Subtle - character sensory logic barely perceptible"
+        4-6: "Moderate - character influence clearly present but not overwhelming"
+        7-8: "Strong - character sensory logic dominates but doesn't erase prompt content"
+        9-10: "Overwhelming - character sensory logic fully saturates the visual field"
+    comment: "Intensity creates a continuous transformation space, not discrete states"
+
+  TransformedVisualField:
+    description: "The output domain - the original visual field reshaped by character operator at given intensity"
+    properties:
+      enhanced_prompt: "Natural language description with character sensory logic applied"
+      semantic_components: "Same structure as VisualField but with character-specific modifications"
+    comment: "TransformedVisualField is the target of the transformation"
+
+morphisms:
+  CharacterDeformation:
+    source: VisualField
+    target: TransformedVisualField
+    functor: "Apply unified character operator to visual field"
+    inputs:
+      - visual_field: VisualField
+      - operator: CharacterOperator
+      - intensity: IntensityParameter
+    outputs:
+      - transformed_field: TransformedVisualField
+    properties:
+      deterministic: true
+      coherence_preserving: true
+      comment: "Single morphism: the unified deformation operation. No intermediate selections."
+    
+  IntensityScaling:
+    source: IntensityParameter
+    target: "Operator Strength Space"
+    description: "Maps intensity value to modulation strength across all transformation dimensions"
+    properties:
+      continuous: true
+      linear_by_default: true
+      proportional_scaling: "All dimensions scale proportionally with intensity"
+      comment: "All dimensions (material, spatial, temporal, chromatic, emotional) vary together"
+
+commutative_diagrams:
+  UnifiedOperatorCoherence:
+    description: "Applying character operator at any intensity produces coherent result"
+    diagram:
+      - step1: "Start with VisualField"
+      - step2a: "Apply Endora operator at intensity 5"
+      - step2b: "Apply Endora operator at intensity 3, then at intensity 2"
+      - convergence: "Results should be materially similar (path independence)"
+      - principle: "Endora's sensory logic is unified - different intensities of the same operator cohere"
+    
+  CompositionWithIntensity:
+    description: "Character operator at high intensity doesn't produce incoherent contradictions"
+    diagram:
+      - constraint1: "Material precision + spatial hierarchy + temporal authority"
+      - constraint2: "These four dimensions must reinforce each other, not contradict"
+      - constraint3: "At any intensity, the result should feel unified, not fragmented"
+      - verification: "Does a high-intensity Endora transformation feel like one sensibility, or four separate ones?"
+
+relationships:
+  operator_to_principles:
+    description: "Character operator is NOT a sum of independent principles. It is one unified logic with multiple manifestations."
+    structure:
+      - EndoraOperator: "Single unified 'aristocratic supernatural authority' that manifests as material precision AND spatial hierarchy AND temporal authority AND emotional subtext simultaneously"
+      - note: "These are not separate choices. They are aspects of one coherent sensory field."
+  
+  intensity_to_coherence:
+    description: "Higher intensity amplifies the entire operator proportionally"
+    constraint: "Intensity cannot change the *kind* of operator - only its *strength*"
+    example: "Endora at intensity 2 is not 'different' from Endora at intensity 8. It is the same sensibility, differently saturated."
+
+framework_principles:
+  - UnifiedOperator: "Character is ONE sensory logic, not a collection of aesthetic choices"
+  - ContinuousDeformation: "Operator is applied with intensity 0-10, not selected from discrete options"
+  - CoherenceByDesign: "Categorical structure ensures transformations are internally consistent"
+  - DimensionalProportionality: "All transformation dimensions scale together with intensity"
+  - IntentionalityPreservation: "The olog exists to make the sensory logic reproducible and defensible"
+
+comparison_to_game_show_aesthetics:
+  game_show_pattern: "Discrete selections - choose era, palette, materials, lighting, camera from enumerated options"
+  character_pattern: "Continuous deformation - apply character operator with intensity 0-10"
+  categorical_difference: "Game show morphisms are selections between finite states. Character morphisms are continuous transformations in a deformation space."
+  philosophical_implication: "Characters embody a unified sensory logic, while game show eras are distinct historical moments."

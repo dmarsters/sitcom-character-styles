@@ -1,0 +1,146 @@
+# Sitcom Character Styles - Endora - Layer 1: Categorical Structure
+# Specialization of the framework for Endora's specific character operator
+
+operator_name: EndoraOperator
+
+unified_sensory_logic:
+  description: "Aristocratic supernatural authority - a coherent field of presence that commands elevation, hierarchy, and material significance"
+  core_principle: "Everything Endora encounters is implicitly judged against higher standards and subtly elevated through her mere presence"
+  manifestation: "Single unified operator that appears as material precision, spatial hierarchy, temporal authority, and emotional knowing simultaneously"
+
+transformation_dimensions:
+  MaterialPresence:
+    description: "How objects and surfaces are rendered in Endora's sensory space"
+    properties:
+      texture_elevation: "Mundane materials become luxurious; cheap materials become meaningful through conscious selection"
+      material_precision: "Objects appear specifically made of specific materials for specific reasons"
+      tactile_weight: "Everything feels heavier, more present, more real than reality typically allows"
+      opacity_and_luminance: "Surfaces have clarity and definition; nothing is vague or provisional"
+    intensification_curve: |
+      At intensity 0: Original materials unchanged
+      At intensity 3: Materials gain subtle tactile presence
+      At intensity 5: Clear elevation and precision; every material choice feels intentional
+      At intensity 8: Materials dominate perceptually; surfaces become almost hyperreal
+      At intensity 10: Complete material saturation - the material world becomes primary reality
+    example: "A coffee cup at intensity 5 is not just a cup but a *vessel of a particular material for a particular purpose*, rendered with craftsperson-like specificity"
+
+  SpatialHierarchy:
+    description: "How composition and spatial relationships are arranged"
+    properties:
+      compositional_dominance: "Endora becomes the reference point; other elements orbit her or defer to her"
+      depth_relationships: "Space has clear foreground (important), midground (supporting), background (diminished) relationships"
+      visual_weight_distribution: "Elements are arranged by significance, not accident"
+      boundary_clarity: "Relationships between objects have definite edges and clear distinctions"
+    intensification_curve: |
+      At intensity 0: Original composition unchanged
+      At intensity 3: Subtle suggestion of hierarchy; some elements start deferring
+      At intensity 5: Clear spatial authority; Endora is unambiguously central reference point
+      At intensity 8: Space reorganizes dramatically; lesser elements pushed to periphery
+      At intensity 10: Complete spatial reorganization; everything arranged in clear hierarchical tiers
+    example: "A room at intensity 5 arranges itself to acknowledge Endora's presence - furniture, people, objects all subtly reorient toward her"
+
+  TemporalAuthority:
+    description: "How time, motion, and temporal presence are experienced"
+    properties:
+      presence_inevitability: "Endora's presence feels fated, not accidental - as though time arranged itself for her arrival"
+      motion_deliberation: "Movement is slow, weighted, purposeful - never rushed or uncertain"
+      temporal_compression: "Moments she occupies feel significant and extended, even if brief"
+      discontinuity_acceptance: "She can appear and vanish without explanation; temporal rules bend for her"
+    intensification_curve: |
+      At intensity 0: Normal temporal flow
+      At intensity 3: Subtle sense that time pauses slightly when she's present
+      At intensity 5: Clear temporal weight; her movements feel significant and deliberate
+      At intensity 8: Time distinctly reorganizes around her; she's temporally central
+      At intensity 10: Complete temporal authority; she exists outside normal temporal flow
+    example: "At intensity 5, a simple gesture (extending a hand, turning away) feels pregnant with significance and inevitability"
+
+  ChromaticCommand:
+    description: "How colors function and are perceived"
+    properties:
+      color_judgment: "Colors in her presence are implicitly evaluated - some elevated, some diminished"
+      jewel_tone_affinity: "Cool jewel tones (sapphire, emerald, amethyst) and rich metals (gold, copper) feel native to her space"
+      color_precision: "Colors don't mix haphazardly; they're composed with intention"
+      luminance_authority: "She commands light - shadows around her feel intentional, darkness meaningful"
+    intensification_curve: |
+      At intensity 0: Original colors unchanged
+      At intensity 3: Subtle coolness introduced; colors become slightly more saturated
+      At intensity 5: Clear jewel-tone affinity; colors feel composed; lighting feels intentional
+      At intensity 8: Dramatic color shift toward cool jewel tones and meaningful contrast
+      At intensity 10: Complete color transformation; palette becomes rich, cool, and precisely composed
+    example: "At intensity 5, a red object becomes a deep jewel red; a brown surface becomes bronze or aged copper; whites become cream or silver"
+
+  EmotionalSubtext:
+    description: "How feeling and intention are conveyed beneath surfaces"
+    properties:
+      aristocratic_judgment: "Every gesture carries implicit assessment - 'I have evaluated this and found it wanting, adequate, or amusing'"
+      supernatural_knowing: "Sense that she understands dimensions of reality others don't access"
+      contempt_underneath: "Even kindness carries an undertone of superiority or private amusement"
+      emotional_reserve: "Deep feeling underneath carefully controlled expression"
+    intensification_curve: |
+      At intensity 0: No emotional subtext
+      At intensity 3: Subtle sense of being observed and judged
+      At intensity 5: Clear aristocratic assessment; knowing look; private amusement
+      At intensity 8: Dominant emotional tone - everything radiates supernatural knowing and gentle contempt
+      At intensity 10: Complete emotional saturation - overwhelming sense of being evaluated by a being of superior knowledge
+    example: "At intensity 5, even neutral objects carry emotional weight - they're being *looked at* by someone making judgments about them"
+
+unified_operator_coherence:
+  principle: "These five dimensions are not independent choices. They are aspects of a single unified sensory logic."
+  manifestation_rule: |
+    When intensity increases, ALL dimensions intensify together:
+    - Higher intensity → materials become more precisely significant
+    - Higher intensity → space more clearly hierarchical
+    - Higher intensity → time more authoritative
+    - Higher intensity → colors more jewel-like
+    - Higher intensity → emotional subtext more palpable
+  
+  coherence_constraint: |
+    At any given intensity, the result should feel like "one coherent sensibility applied with varying saturation"
+    NOT like "five separate aesthetic filters stacked on top of each other"
+    
+    Test: Does a high-intensity Endora transformation feel like Endora's presence remaking reality,
+    or like someone applied five different visual effects?
+    If the latter, the implementation has failed the coherence test.
+
+intensity_parameter:
+  type: integer
+  range: 0-10
+  default: 5
+  semantics:
+    0: "Pure original prompt, no Endora operator applied"
+    1: "Barely perceptible - whisper of aristocratic presence"
+    2: "Subtle - Endora's sensibility just barely visible"
+    3: "Light touch - character influence present but not dominant"
+    4: "Moderate-light - clear Endora sensibility but respecting original prompt"
+    5: "Balanced - Endora operator and original prompt in clear conversation"
+    6: "Moderate-strong - Endora's logic becoming dominant"
+    7: "Strong - Endora's sensibility clearly dominant, original prompt secondary"
+    8: "Very strong - Endora's logic saturating nearly everything"
+    9: "Overwhelming - original prompt barely visible through Endora's presence"
+    10: "Complete saturation - Endora's sensory logic is the primary reality"
+
+morphism_instantiation:
+  name: "EndoraDeformation"
+  source: "VisualField"
+  target: "TransformedVisualField"
+  operator: "EndoraOperator at specified intensity"
+  application_rule: |
+    For each semantic component of the VisualField:
+    1. Extract the component (subject, action, setting, objects, colors, mood)
+    2. Apply Endora's sensory logic at specified intensity
+    3. Ensure all five dimensions (material, spatial, temporal, chromatic, emotional) scale proportionally
+    4. Recompose into enhanced VisualField maintaining the original subject/action/setting structure
+    5. Verify coherence: does result feel like unified Endora sensibility?
+
+comparison_to_game_show_aesthetics:
+  game_show_structure: |
+    Era selection → Palette selection → Materials selection → Lighting selection → Camera selection
+    (Five independent morphisms chained together, each selecting from discrete options)
+  
+  endora_structure: |
+    Apply unified EndoraOperator with intensity parameter
+    (Single morphism with scalar intensity modulating all dimensions proportionally)
+  
+  categorical_implication: |
+    Game show: Composition of morphisms between finite state spaces
+    Endora: Single continuous deformation in an infinite-dimensional space
