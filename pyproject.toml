@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "Dal Marsters", email = "dal@lushy.ai"}
+    {name = "Dal Marsters", email = "dal@lushy.app"}
 ]
 keywords = ["mcp", "olog", "categorical", "sitcom", "character", "aesthetics", "prompts"]
 classifiers = [
@@ -28,7 +28,6 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
     "Topic :: Multimedia :: Graphics",
 ]
-
 dependencies = [
     "fastmcp>=0.1.0",
     "pyyaml>=6.0",
@@ -42,9 +41,6 @@ dev = [
     "ruff>=0.1.0",
     "mypy>=1.0",
 ]
-
-[project.scripts]
-sitcom-character-styles = "sitcom_character_styles.mcp_server.server:main"
 
 [tool.setuptools]
 package-dir = {"" = "."}

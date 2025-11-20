@@ -173,7 +173,3 @@ def get_server_info() -> str:
         "repository": "https://github.com/dmarsters/sitcom-character-styles"
     }
     return json.dumps(info, indent=2)
-
-
-if __name__ == "__main__":
-    server.run()
