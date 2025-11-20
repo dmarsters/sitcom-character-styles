@@ -8,7 +8,7 @@ transformation dimensions with proportional intensity scaling.
 from typing import List, Dict, Any
 
 # Import from relative path - don't manipulate sys.path
-from ...framework.core.continuous_deformation import (
+from framework.core.continuous_deformation import (
     ContinuousDeformationOperator, 
     IntensityInterpolation,
     TransformedPrompt

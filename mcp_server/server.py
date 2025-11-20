@@ -7,19 +7,15 @@ Future support: Mork, other sitcom characters
 
 import json
 from typing import Optional
-import sys
-from pathlib import Path
-
-# Add parent directory to path so relative imports work
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 try:
     from mcp.server.fastmcp import FastMCP
 except ImportError:
+    import sys
     print("Error: fastmcp not installed. Install with: pip install fastmcp", file=sys.stderr)
     exit(1)
 
-# Import character operators
+# Import character operators using absolute imports
 try:
     from characters.endora.src.endora_operator import EndoraOperator
     from characters.endora.src.prompt_enhancement import (
@@ -28,6 +24,7 @@ try:
         get_endora_examples
     )
 except ImportError as e:
+    import sys
     print(f"Error importing character operators: {e}", file=sys.stderr)
     print("Make sure you're running from the sitcom-character-styles project root directory.", file=sys.stderr)
     exit(1)
@@ -173,3 +170,7 @@ def get_server_info() -> str:
         "repository": "https://github.com/dmarsters/sitcom-character-styles"
     }
     return json.dumps(info, indent=2)
+
+
+if __name__ == "__main__":
+    server.run()
