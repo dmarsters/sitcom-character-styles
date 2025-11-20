@@ -6,13 +6,9 @@ transformation dimensions with proportional intensity scaling.
 """
 
 from typing import List, Dict, Any
-import sys
-from pathlib import Path
 
-# Add parent directory to path to import framework
-sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent / 'framework'))
-
-from core.continuous_deformation import (
+# Import from relative path - don't manipulate sys.path
+from ..framework.core.continuous_deformation import (
     ContinuousDeformationOperator, 
     IntensityInterpolation,
     TransformedPrompt
