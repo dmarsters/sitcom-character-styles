@@ -1,4 +1,3 @@
-# Force rebuild: 1763669677
 """FastMCP server for sitcom character styles.
 
 Exposes character operators as MCP tools.
@@ -8,11 +7,12 @@ Future support: Mork, other sitcom characters
 
 import json
 from typing import Optional
+import asyncio
+import sys
 
 try:
     from mcp.server.fastmcp import FastMCP
 except ImportError:
-    import sys
     print("Error: fastmcp not installed. Install with: pip install fastmcp", file=sys.stderr)
     exit(1)
 
@@ -25,7 +25,6 @@ try:
         get_endora_examples
     )
 except ImportError as e:
-    import sys
     print(f"Error importing character operators: {e}", file=sys.stderr)
     print("Make sure you're running from the sitcom-character-styles project root directory.", file=sys.stderr)
     exit(1)
@@ -174,4 +173,8 @@ def get_server_info() -> str:
 
 
 if __name__ == "__main__":
+    # For local testing
     server.run()
+
+# For FastMCP Cloud - export server object directly
+# The cloud platform will discover and run it
