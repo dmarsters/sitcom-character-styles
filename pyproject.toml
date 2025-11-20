@@ -28,7 +28,6 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
     "Topic :: Multimedia :: Graphics",
 ]
-
 dependencies = [
     "fastmcp>=0.1.0",
     "pyyaml>=6.0",
@@ -42,9 +41,6 @@ dev = [
     "ruff>=0.1.0",
     "mypy>=1.0",
 ]
-
-[project.scripts]
-sitcom-character-styles = "sitcom_character_styles.mcp_server.server:main"
 
 [tool.setuptools]
 package-dir = {"" = "."}
