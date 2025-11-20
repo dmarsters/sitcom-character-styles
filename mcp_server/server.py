@@ -1,3 +1,4 @@
+# Force rebuild: 1763669677
 """FastMCP server for sitcom character styles.
 
 Exposes character operators as MCP tools.
