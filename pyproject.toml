@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "Dal Marsters", email = "dal@lushy.ai"}
+    {name = "Dal Marsters", email = "dal@lushy.app"}
 ]
 keywords = ["mcp", "olog", "categorical", "sitcom", "character", "aesthetics", "prompts"]
 classifiers = [
