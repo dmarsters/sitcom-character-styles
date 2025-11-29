@@ -298,17 +298,17 @@ MIT
 
 ## Author
 
-Dal Marsters (dal@lushy.ai)
+Dal Marsters (dal@lushy.app)
 
 ## Citation
 
 If you use this project in research or publications, please cite:
 
 ```
-@software{marsters2024sitcomcharacterstyles,
+@software{marsters2025sitcomcharacterstyles,
   title={Sitcom Character Styles: Applying Categorical Theory to Character Sensibility},
   author={Marsters, Dal},
-  year={2024},
+  year={2025},
   url={https://github.com/dmarsters/sitcom-character-styles}
 }
 ```
